@@ -19,8 +19,8 @@ Following table lists the various steps and corresponding tools in RTL to GDS fl
   | GDS | Magic |
 
 *Note*:
-- The entire openlane flow has few more steps, namely LEC, DFT Insertion, AntDiode Insertion and Physical Verification(DRC and LVS).
-- But as part of the workshop these were not covered in labs.
+- The complete Openlane flow has few more steps, namely LEC, DFT Insertion, AntDiode Insertion and Physical Verification(DRC and LVS).
+- But these were not covered as part of workshop labs.
 
 # Running Openlane 
 Openlane is run in interactive mode in the workshop to execute and analyze each of the steps individually.       
