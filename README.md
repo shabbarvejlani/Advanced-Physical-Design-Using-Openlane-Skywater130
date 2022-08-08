@@ -11,11 +11,11 @@ Following table lists the various steps and corresponding tools in RTL to GDS fl
   | Step | Tool Used | Run Command |
   | --- | --- | --- |
   | Synthesis | Yosys and abc | `run_synthesis` |
-  | Floorplan | | `run_floorplan` |
+  | Floorplan | init_fp, io_placer, pdn | `run_floorplan` |
   | STA (Post Synthesis, Post CTS, Post Route)  | OpenSTA | `sta` |
-  | Placement | | `run_placement` |
+  | Placement | RePlace(Global Placement) and OpenDP(Detailed Placement) | `run_placement` |
   | Clock Tree Synthesis(CTS) | TritonCTS | `run_cts`|
-  | Routing | TritonRoute | `run_routing` |
+  | Routing | FastRoute(Global Route) and TritonRoute(Detailed Route) | `run_routing` |
   | GDS | Magic | *From Magic Gui* -> Save GDS |
 
 *Note*:
