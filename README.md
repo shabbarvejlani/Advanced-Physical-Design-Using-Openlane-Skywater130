@@ -38,7 +38,7 @@ On the OpenLane shell, do design preparation:
 `prep -design picorv32a`
 
 *Note*:
-- The design needs to be present in the <designs> folder
+- The design needs to be present in the designs folder. Any new design needs to be be put in a separate folder and have a directory structure similar to the existing designs.
 - This step mainly generates the merged.lef in the run area, which is obtained by merging the technology lef file and the stdcell lef file
 
 ## FAQ:
