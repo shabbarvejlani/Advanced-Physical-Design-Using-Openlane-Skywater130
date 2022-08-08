@@ -16,7 +16,27 @@ Following table lists the various steps and corresponding tools in RTL to GDS fl
   | Placement | |
   | Clock Tree Synthesis(CTS) | TritonCTS |
   | Routing | TritonRoute | 
+  | GDS | Magic |
 
-# Interactive Openlane
+*Note*:
+- The entire openlane flow has few more steps, namely LEC, AntDiode Insertion, DRC and LVS.
+- But as part of the workshop these were not covered.
+
+# Running Openlane 
+Openlane is run in interactive mode in the workshop to execute and analyze each of the steps individually.
+Example design from openlane of picorv32a was chosen.
+The openlane docker distribution is used in the workshop.
+To load openlane docker setup execute following:   
+`make mount`
+
+This will open the openlane shell.
+Next, we need to set the openlane package version:    
+`package require openlane 0.9`    
+
+
+
+
+
+
 
 
