@@ -8,15 +8,15 @@ Sywater130 PDK is open-sourced by Google-Skywater and its intergation support fo
 
 Following table lists the various steps and corresponding tools in RTL to GDS flow.
 
-  | Step | Tool Used | 
-  | --- | --- |
-  | Synthesis | Yosys and abc |
-  | Floorplan | |
-  | STA (Post Synthesis, Post CTS, Post Route)  | OpenSTA |
-  | Placement | |
-  | Clock Tree Synthesis(CTS) | TritonCTS |
-  | Routing | TritonRoute | 
-  | GDS | Magic |
+  | Step | Tool Used | Run Command |
+  | --- | --- | --- |
+  | Synthesis | Yosys and abc | `run_synthesis` |
+  | Floorplan | | `run_floorplan` |
+  | STA (Post Synthesis, Post CTS, Post Route)  | OpenSTA | `sta` |
+  | Placement | | `run_placement` |
+  | Clock Tree Synthesis(CTS) | TritonCTS | `run_cts`|
+  | Routing | TritonRoute | `run_routing` |
+  | GDS | Magic | *From Magic Gui* -> Save GDS |
 
 *Note*:
 - The complete Openlane flow has few more steps, namely LEC, DFT Insertion, AntDiode Insertion and Physical Verification(DRC and LVS).
