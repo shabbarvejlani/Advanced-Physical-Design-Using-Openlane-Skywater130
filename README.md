@@ -33,8 +33,21 @@ To load openlane docker setup execute following:
 Start OpenLane interactively:    
 `./flow.tcl -interactive`
 
-On the OpenLane shell, set the openlane package version:       
+On the OpenLane shell, do design preparation:       
 `package require openlane 0.9`    
+`prep -design picorv32a`
+
+*Note*:
+- The design needs to be present in the 
+
+## FAQ:
+- What if I want to analyze/iteration an existing run in interactive mode?    
+`prep -design <design-folder> -tag <run-folder>`   
+This is useful to continue from last stage of an existing run.   
+
+- What if I want to do fresh re-run in interactice mode?   
+`prep -design <design-folder> -tag <run-folder> -overwrite`   
+
 
 
 
