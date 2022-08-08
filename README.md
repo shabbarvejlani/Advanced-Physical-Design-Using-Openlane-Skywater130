@@ -1,5 +1,5 @@
 # Advanced-Physical-Design-Using-Openlane-Skywater130
-The following are summary of learnings from the workshop on "Advanced Physical Design Using Openlane Skywater130" orginized by VSD, sponsered by efabless from 3rd August-7th August 2022.
+The following are summary of learnings from the workshop on "Advanced Physical Design Using Openlane Skywater130" orginized by VSD abd sponsored by Efabless from 3rd August-7th August 2022.
 
 # Overview of Openlane
 Openlane is a RTL2GDS digital design flow, using various open-source tools to perform various stages in the ASIC physical design process.
