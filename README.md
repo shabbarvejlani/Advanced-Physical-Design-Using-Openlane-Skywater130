@@ -39,6 +39,7 @@ On the OpenLane shell, do design preparation:
 
 *Note*:
 - The design needs to be present in the 
+- This step mainly generates the merged.lef in the run area, which is obtained by merging the technology lef file and the stdcell lef file
 
 ## FAQ:
 - What if I want to analyze/iteration an existing run in interactive mode?    
