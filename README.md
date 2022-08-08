@@ -46,7 +46,11 @@ On the OpenLane shell, do design preparation:
 This is useful to continue from last stage of an existing run.   
 
 - What if I want to do fresh re-run in interactice mode?   
-`prep -design <design-folder> -tag <run-folder> -overwrite`   
+`prep -design <design-folder> -tag <run-folder> -overwrite`
+
+# Running Synthesis
+
+## Running Synthesis with Custom Stdcell Cell
 
 
 
